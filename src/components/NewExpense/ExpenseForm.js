@@ -19,7 +19,7 @@ const ExpenseForm = props => {
         ...userInput,
         enteredTitle: event.target.value
     })
-    ----------------> VERY IMPORTANT   <--------------------------
+    ----------------> VERY IMPORTANT   <-------------------------- #56 academind
 
     setUserInput((prevState) => {                                 //prev State
         return { ...prevState, enteredTitle: event.target.value}  //updating State
